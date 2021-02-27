@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+
+.button, .disabled {
+  padding: 20px;
+  margin: 20px;
+  font-size: 1.5rem;
+  border-radius: 1.25rem;
+  background-color: lightgoldenrodyellow;
+  color: rgb(48, 164, 241);
+  font-weight: 700;
+  box-shadow: 2.5px 2.5px 5px 2px gray;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.disabled {
+  background-color: #3b4047;
+  color: gray;
+  box-shadow: none;
+  cursor: default;
+}
